@@ -37,4 +37,4 @@ function Out-Toast {
     }
 }
 
-npm start *>&1 | Out-Toast -Title esLint
+npm start | Out-Toast -Title esLint
