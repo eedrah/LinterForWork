@@ -4,7 +4,8 @@
 var chokidar = require('chokidar');
 var eslint = require('eslint');
 var cli = new eslint.CLIEngine({
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
+    configFile: '.eslintrc'
 });
 
 var formatter = cli.getFormatter();
