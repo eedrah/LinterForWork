@@ -6,14 +6,15 @@
         'moment' : false
     },
     'rules': {
+        'comma-spacing': 2,
         'indent': [2, 4, {'SwitchCase': 1}],
         'linebreak-style': 0,
+        'no-extra-bind': 2,
         'no-warning-comments': [2, {
             'terms': ['todo', 'fixme', 'xxx', 'come back'],
             'location': 'anywhere'
         }],
-        'quotes': [2, 'single'],
-        'semi': [2, 'always'],
+        'quotes': [2, 'single', 'avoid-escape'],
         'react/display-name': [2, {'acceptTranspilerName': true}],
         'react/forbid-prop-types': 2,
         'react/jsx-boolean-value': 2,
@@ -41,7 +42,8 @@
         'react/require-extension': 2,
         'react/self-closing-comp': 2,
         'react/sort-comp': 2,
-        'react/wrap-multilines': 2
+        'react/wrap-multilines': 2,
+        'semi': [2, 'always']
     },
     'env': {
         'browser': true,
