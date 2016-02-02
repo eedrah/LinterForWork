@@ -8,6 +8,7 @@
     'rules': {
         'comma-spacing': 2,
         'indent': [2, 4, {'SwitchCase': 1}],
+        'jsx-quotes': 2,
         'linebreak-style': 0,
         'no-extra-bind': 2,
         'no-warning-comments': [2, {
@@ -25,7 +26,6 @@
         'react/jsx-no-duplicate-props': 2,
         'react/jsx-no-literals': 0,
         'react/jsx-no-undef': 2,
-        'react/jsx-quotes': 2,
         'react/jsx-sort-prop-types': 2,
         'react/jsx-sort-props': 0,
         'react/jsx-uses-react': 2,
