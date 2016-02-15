@@ -5,6 +5,7 @@
         '_' : false,
         'moment' : false
     },
+    'root': true,
     'rules': {
         'comma-spacing': 2,
         'indent': [2, 4, {'SwitchCase': 1}],
@@ -15,7 +16,7 @@
             'terms': ['todo', 'fixme', 'xxx', 'come back'],
             'location': 'anywhere'
         }],
-        'quotes': [2, 'single', 'avoid-escape'],
+        'quotes': [2, 'double', 'avoid-escape'],
         'react/display-name': [2, {'acceptTranspilerName': true}],
         'react/forbid-prop-types': 2,
         'react/jsx-boolean-value': 2,
