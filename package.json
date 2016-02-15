@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/eedrah/LinterForWork#readme",
   "dependencies": {
-    "chokidar": "^1.2.0",
-    "eslint": "^1.6.0",
-    "eslint-plugin-react": "^3.5.1"
+    "chokidar": "^1.4.2",
+    "eslint": "^2.1.0",
+    "eslint-plugin-react": "^3.16.1"
   }
 }
